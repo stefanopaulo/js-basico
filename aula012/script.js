@@ -1,6 +1,6 @@
-const num1 = Number(prompt('Digite um número:'));
-const num2 = Number(prompt('Digite outro número:'));
-const operacao = prompt('Operação:');
+let num1 = Number(prompt('Digite um número:'));
+let num2 = Number(prompt('Digite outro número:'));
+let operacao = prompt('Operação (+ - * /):');
 let res;
 
 switch (operacao) {
